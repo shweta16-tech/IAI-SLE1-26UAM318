@@ -2,45 +2,51 @@
 
 ## 1. Tools Used
 
-- ChatGPT: Used for understanding the assignment, selecting a simple AI project, generating the initial Python code, and explaining how to test the program.
-- GitHub: Used to create the repository and store the Python program and contribution log.
-- Python: Used to run and test the program on the computer.
+- ChatGPT: Used to understand the SLE-1 requirements, select the project idea, generate the initial Python code, improve the rule-based agent, and explain testing.
+- GitHub: Used to create and manage the project repository.
+- Python: Used to run and test the program.
 
 ## 2. AI-Generated Parts
 
-ChatGPT helped generate the initial code for the Rule-Based Student Study Assistant Agent.
+ChatGPT helped generate the initial and improved Python code for the Rule-Based Student Study Assistant Agent.
 
-The AI-generated code includes:
+The AI-assisted code includes:
 - Taking study hours as input.
 - Taking the user's mood as input.
-- Checking the entered values.
-- Applying predefined if-elif rules.
-- Displaying a study recommendation.
-- Providing the main program structure.
+- Input validation.
+- Predefined rules for study hours and mood.
+- Generating study recommendations.
+- Generating a final decision.
+- Main program structure.
 
 The code is stored in `rule_based_agent.py`.
 
 ## 3. My Own Work
 
+- Selected the Student Study Assistant Agent topic.
 - Created and organized the GitHub repository.
-- Selected the Rule-Based Student Study Assistant Agent topic.
-- Added the Python file to the repository.
-- Ran the program on my computer.
-- Tested the program with different inputs.
-- Checked that the output matched the predefined rules.
-- Prepared this AI Contribution Log.
+- Added the Python program to the repository.
+- Reviewed and understood the program logic.
+- Ran and tested the program on my computer.
+- Tested the agent with different inputs.
+- Checked whether the output matched the defined rules.
+- Organized the project files for submission.
 
 ## 4. Issues / Risks Found and Fixes
 
-- The program accepts only three valid moods: good, tired, and stressed.
+- Invalid study-hour values are rejected.
+- Study hours below 0 are rejected.
+- Study hours above 24 are rejected.
 - Invalid mood entries are rejected.
-- Negative study hours are rejected.
-- Study hours greater than 24 are rejected.
 - The program was tested with different study-hour and mood combinations.
 
 ## 5. Limitations
 
 - The agent uses predefined rules.
-- It does not learn from previous inputs.
-- It does not use machine learning.
+- It does not learn from previous user inputs.
+- It does not use machine learning or a trained model.
 - Its recommendations are limited to study hours and mood.
+
+## 6. Conclusion
+
+AI tools were used as development assistance. The generated code was reviewed, understood, tested, and organized for the final project. The AI Contribution Log documents the use of AI and the student's contribution.
